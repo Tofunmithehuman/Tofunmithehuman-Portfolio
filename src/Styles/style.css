@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --fontFamily: IBM Plex Mono;
+  --otherFont: "Pixelify Sans", cursive;
+  --primaryTextColor: #3772ff;
+  --hoverTextColor: #df2935;
+  --backgroundColor: #0807088e;
+}
+
+/* Naviigation */
+.Navigation {
+  background-color: var(--backgroundColor);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+}
+
+.Navigation header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.Navigation header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.Navigation header nav ul li a {
+  color: var(--primaryTextColor);
+  font-family: var(--fontFamily);
+  transition: all 500ms ease;
+}
+
+.Navigation header nav ul li a:hover {
+  color: var(--hoverTextColor);
+  border-bottom: 1px solid var(--hoverTextColor);
+}
+
+/* Toggle */
+.Navigation header .toggle,
+.dropdown {
+  display: none;
+}
+
+/* Hero */
+.Hero {
+  padding: 350px 60px;
+  color: white;
+  font-family: var(--fontFamily);
+}
+
+.Hero .container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.Hero .container .contain {
+  font-size: 18px;
+}
+
+.Hero .container .buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hero .container .buttons button {
+  background-color: #fdc840;
+  color: #000;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  width: 200px;
+  transition: all 300ms ease;
+  cursor: pointer;
+  font-family: var(--fontFamily);
+}
+
+.Hero .container .buttons button:hover {
+  background-color: #3772ff;
+}
+
+/* SectionOne */
+.SectionOne {
+  background-color: var(--primaryTextColor);
+  padding: 100px 40px;
+  color: #fff;
+}
+
+.SectionOne .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.SectionOne .container h1 {
+  text-align: center;
+  font-family: var(--otherFont);
+}
+
+.SectionOne .container .innerContain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  margin-top: 50px;
+  font-family: var(--fontFamily);
+}
+
+.SectionOne .container .innerContain .contain:nth-child(1) {
+  width: 800px;
+}
+
+.SectionOne .container .innerContain .contain:nth-child(2) {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 768px) {
+  /* Navigation */
+  .Navigation header nav {
+    display: none;
+  }
+
+  .Navigation header .toggle {
+    display: block;
+    color: var(--primaryTextColor);
+    font-size: 30px;
+  }
+
+  /* Dropdown */
+  .Navigation header .dropdown {
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .Navigation header .dropdown.open {
+    height: 800px;
+    opacity: 1;
+    background-color: var(--primaryTextColor);
+  }
+
+  .Navigation header .dropdown ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    gap: 80px;
+    opacity: 0;
+  }
+
+  .Navigation header .dropdown ul.open {
+    opacity: 1;
+  }
+
+  .Navigation header .dropdown ul li a {
+    color: var(--backgroundColor);
+    font-size: 20px;
+    font-family: var(--fontFamily);
+  }
+
+  /* Hero  */
+  .Hero {
+    padding: 350px 50px;
+  }
+
+  .Hero .container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* SectionOne */
+  .SectionOne {
+    padding: 100px 20px;
+  }
+
+  .SectionOne .container h1 {
+    font-size: 25px;
+  }
+
+  .SectionOne .container .innerContain {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .SectionOne .container .innerContain h2, h3 {
+    font-size: 20px;
+  }
+
+  .SectionOne .container .innerContain p {
+    font-size: 12px;
+  }
+
+  .SectionOne .container .innerContain .contain:nth-child(1) {
+    width: auto;
+    margin-bottom: 40px
+  }
+
+  .SectionOne .container .innerContain .contain:nth-child(2) {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  /* Hero */
+  .Hero {
+    padding: 350px 20px;
+  }
+
+  .Hero .container .contain {
+    font-size: 15px;
+  }
+
+}
