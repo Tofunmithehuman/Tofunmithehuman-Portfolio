@@ -165,7 +165,7 @@
   }
 
   .Navigation header .dropdown.open {
-    height: 800px;
+    height: 750px;
     opacity: 1;
     display: block;
     background-color: var(--primaryTextColor);
