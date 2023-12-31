@@ -78,10 +78,11 @@
 }
 
 .Hero .container .buttons {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
- .Hero .container .buttons button {
+.Hero .container .buttons button {
   background-color: #fdc840;
   color: #000;
   border: none;
@@ -159,12 +160,14 @@
     width: 100%;
     height: 0;
     opacity: 0;
+    display: none;
     transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
 
   .Navigation header .dropdown.open {
     height: 800px;
     opacity: 1;
+    display: block;
     background-color: var(--primaryTextColor);
   }
 
@@ -214,7 +217,8 @@
     padding: 10px;
   }
 
-  .SectionOne .container .innerContain h2, h3 {
+  .SectionOne .container .innerContain h2,
+  h3 {
     font-size: 20px;
   }
 
@@ -224,7 +228,7 @@
 
   .SectionOne .container .innerContain .contain:nth-child(1) {
     width: auto;
-    margin-bottom: 40px
+    margin-bottom: 40px;
   }
 
   .SectionOne .container .innerContain .contain:nth-child(2) {
@@ -241,5 +245,4 @@
   .Hero .container .contain {
     font-size: 15px;
   }
-
 }
