@@ -137,6 +137,42 @@
   gap: 30px;
 }
 
+/* SectionTwo */
+.SectionTwo {
+  margin-top: 100px;
+  color: #fff;
+}
+
+.SectionTwo .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 40px;
+  gap: 50px;
+}
+
+.SectionTwo .headBoy {
+  text-align: center;
+  font-family: var(--otherFont);
+}
+
+.SectionTwo .container .catelogue {
+  width: 425px;
+}
+
+.SectionTwo .container .catelogue img {
+  width: 100%;
+}
+
+.SectionTwo .container .catelogue h1, .SectionTwo .container .catelogue p {
+  padding: 25px 5px;
+  font-family: var(--fontFamily);
+}
+
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 768px) {
