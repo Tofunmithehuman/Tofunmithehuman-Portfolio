@@ -43,7 +43,7 @@ function Navigation() {
             </li>
           </ul>
         </nav>
-        <div className="toggle" onClick={toggleDropdown}>
+        <div data-aos="fade-down" className="toggle" onClick={toggleDropdown}>
           <FontAwesomeIcon icon={toggleIcon} />
         </div>
         <div className={`dropdown ${isDropdownOpen ? "open" : ""}`}>
