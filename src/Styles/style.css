@@ -82,7 +82,7 @@
   flex-direction: column;
 }
 
-.Hero .container .buttons button {
+/* .Hero .container .buttons button {
   background-color: #fdc840;
   color: #000;
   border: none;
@@ -97,7 +97,7 @@
 .Hero .container .buttons button:hover {
   background-color: #3772ff;
 }
-
+*/
 /* SectionOne */
 .SectionOne {
   background-color: var(--primaryTextColor);
