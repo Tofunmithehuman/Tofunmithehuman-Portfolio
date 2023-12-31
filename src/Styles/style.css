@@ -78,8 +78,7 @@
 }
 
 .Hero .container .buttons {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
  .Hero .container .buttons button {
