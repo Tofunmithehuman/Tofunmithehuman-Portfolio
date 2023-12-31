@@ -15,12 +15,13 @@ function Hero() {
           I'm a Fullstack Javascript Developer (MERN)
         </div>
         <div data-aos="fade-up" className="buttons">
-          <Link
-            to="https://drive.google.com/file/d/1a1b8Ua4f9pTT-uBA3e9PHBPM7i-PXstD/view?usp=drive_link"
-            target="_blank"
-          >
-            <button>Download CV</button>
-          </Link>
+            <button>
+              <Link
+                to="https://drive.google.com/file/d/1a1b8Ua4f9pTT-uBA3e9PHBPM7i-PXstD/view?usp=drive_link"
+                target="_blank">
+                  Download CV
+              </Link>
+              </button>
           <button>Latest Project</button>
         </div>
       </div>
