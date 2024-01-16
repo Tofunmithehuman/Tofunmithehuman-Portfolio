@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/style.css";
 import useAos from "../Components/aos";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 function Hero() {
   useAos();
@@ -21,7 +22,9 @@ function Hero() {
           >
             <button>Download CV</button>
           </Link>
+          <ScrollLink to="projects" smooth={true} duration={500} offset={-70}>
           <button>Latest Project</button>
+              </ScrollLink>
         </div>
       </div>
     </div>
