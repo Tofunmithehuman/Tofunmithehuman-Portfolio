@@ -7,15 +7,19 @@ function SectionTwo() {
   useAos();
 
   return (
-    <div className="SectionTwo">
-        <h1 className="headBoy">My Projects</h1>
+    <div className="SectionTwo" id="projects">
+      <h1 className="headBoy" data-aos="fade-up">
+        My Projects
+      </h1>
       <div className="container">
-        <div className="catelogue">
-          <img
-            src="https://images.unsplash.com/photo-1516116412344-6663387e8590?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="catImg"
-          />
-          <h1>Catelogue 1</h1>
+        <div className="catelogue" data-aos="fade-up">
+          <Link to="https://www.allbirds.com" target="_blank">
+            <img
+              src="https://res.cloudinary.com/dzzwvcapu/image/upload/v1705447075/allbird_omii6x.png"
+              alt="catImg"
+            />
+          </Link>
+          <h3>AllBirds</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus, aut praesentium? Reiciendis maiores quibusdam ut.
@@ -23,12 +27,14 @@ function SectionTwo() {
             dicta ullam in at ea id!
           </p>
         </div>
-        <div className="catelogue">
-          <img
-            src="https://images.unsplash.com/photo-1516116412344-6663387e8590?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="catImg"
-          />
-          <h1>Catelogue 2</h1>
+        <div className="catelogue" data-aos="fade-up">
+          <Link to="https://www.blissworld.com" target="_blank">
+            <img
+              src="https://res.cloudinary.com/dzzwvcapu/image/upload/v1705447075/blissworld_axktts.png"
+              alt="catImg"
+            />
+          </Link>
+          <h3>BlissWorld</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus, aut praesentium? Reiciendis maiores quibusdam ut.
@@ -36,25 +42,14 @@ function SectionTwo() {
             dicta ullam in at ea id!
           </p>
         </div>
-        <div className="catelogue">
-          <img
-            src="https://images.unsplash.com/photo-1516116412344-6663387e8590?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="catImg"
-          />
-          <h1>Catelogue 3</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, aut praesentium? Reiciendis maiores quibusdam ut.
-            Quidem porro dignissimos quasi, minima omnis earum vel! Impedit
-            dicta ullam in at ea id!
-          </p>
-        </div>
-        <div className="catelogue">
-          <img
-            src="https://images.unsplash.com/photo-1516116412344-6663387e8590?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="catImg"
-          />
-          <h1>Catelogue 4</h1>
+        <div className="catelogue" data-aos="fade-up">
+          <Link to="https://www.chubbiesshorts.com" target="_blank">
+            <img
+              src="https://res.cloudinary.com/dzzwvcapu/image/upload/v1705447076/chubbiesshorts_kp8kaj.png"
+              alt="catImg"
+            />
+          </Link>
+          <h3>ChubbiesShorts</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus, aut praesentium? Reiciendis maiores quibusdam ut.

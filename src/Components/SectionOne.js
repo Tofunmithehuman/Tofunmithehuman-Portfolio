@@ -15,7 +15,7 @@ function SectionOne() {
   useAos();
 
   return (
-    <div className="SectionOne">
+    <div className="SectionOne" id="about">
       <div className="container">
         <h1 data-aos="fade-up">About Tofunmithehuman...</h1>
 

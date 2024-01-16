@@ -7,7 +7,7 @@ function Hero() {
   useAos();
 
   return (
-    <div className="Hero">
+    <div className="Hero" id="home">
       <div className="container">
         <div data-aos="fade-up" className="contain">
           Hi, I am Bolaji Oluwatofunmi Ashraf.
