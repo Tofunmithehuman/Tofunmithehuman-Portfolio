@@ -21,10 +21,7 @@ function SectionTwo() {
           </Link>
           <h3>AllBirds</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, aut praesentium? Reiciendis maiores quibusdam ut.
-            Quidem porro dignissimos quasi, minima omnis earum vel! Impedit
-            dicta ullam in at ea id!
+          Welcome to AllBird, your premier destination for fashion-forward and sustainable style! Immerse yourself in a curated collection that seamlessly blends comfort, innovation, and trendsetting designs.
           </p>
         </div>
         <div className="catelogue" data-aos="fade-up">
@@ -36,10 +33,7 @@ function SectionTwo() {
           </Link>
           <h3>BlissWorld</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, aut praesentium? Reiciendis maiores quibusdam ut.
-            Quidem porro dignissimos quasi, minima omnis earum vel! Impedit
-            dicta ullam in at ea id!
+          Welcome to BlissWorld, your sanctuary for radiant and rejuvenated skin! Immerse yourself in the world of skincare where bliss meets science, and each product is crafted to elevate your self-care routine.
           </p>
         </div>
         <div className="catelogue" data-aos="fade-up">
@@ -51,10 +45,7 @@ function SectionTwo() {
           </Link>
           <h3>ChubbiesShorts</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, aut praesentium? Reiciendis maiores quibusdam ut.
-            Quidem porro dignissimos quasi, minima omnis earum vel! Impedit
-            dicta ullam in at ea id!
+          Welcome to Chubbies Shorts, where the spirit of fun and adventure meets the comfort of the perfect pair of shorts! Dive into a world of vibrant colors, bold patterns, and unbeatable quality that defines the essence of leisure and laid-back style.
           </p>
         </div>
       </div>

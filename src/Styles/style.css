@@ -219,6 +219,7 @@
   transition: all 300ms ease;
   cursor: pointer;
   font-family: var(--fontFamily);
+  font-size: 14px;
 }
 
 .SectionThree form .btn:hover {
