@@ -19,7 +19,7 @@ function SectionTwo() {
               alt="catImg"
             />
           </Link>
-          <h3>AllBirds</h3>
+          <h5>AllBirds</h5>
           <p>
           Welcome to AllBird, your premier destination for fashion-forward and sustainable style! Immerse yourself in a curated collection that seamlessly blends comfort, innovation, and trendsetting designs.
           </p>
@@ -31,7 +31,7 @@ function SectionTwo() {
               alt="catImg"
             />
           </Link>
-          <h3>BlissWorld</h3>
+          <h5>BlissWorld</h5>
           <p>
           Welcome to BlissWorld, your sanctuary for radiant and rejuvenated skin! Immerse yourself in the world of skincare where bliss meets science, and each product is crafted to elevate your self-care routine.
           </p>
@@ -43,7 +43,7 @@ function SectionTwo() {
               alt="catImg"
             />
           </Link>
-          <h3>ChubbiesShorts</h3>
+          <h5>ChubbiesShorts</h5>
           <p>
           Welcome to Chubbies Shorts, where the spirit of fun and adventure meets the comfort of the perfect pair of shorts! Dive into a world of vibrant colors, bold patterns, and unbeatable quality that defines the essence of leisure and laid-back style.
           </p>

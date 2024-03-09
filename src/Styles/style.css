@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@
 
 :root {
   --fontFamily: IBM Plex Mono;
-  --otherFont: "Pixelify Sans", cursive;
+  --otherFont: "Roboto Mono", monospace;
   --primaryTextColor: #3772ff;
   --hoverTextColor: #df2935;
   --backgroundColor: #0807088e;
@@ -73,8 +73,10 @@
   gap: 10px;
 }
 
-.Hero .container .contain {
-  font-size: 18px;
+.Hero .container .contain h5 {
+  font-size: 16px;
+  font-family: var(--fontFamily);
+  font-weight: 400;
 }
 
 .Hero .container .buttons {
@@ -111,6 +113,7 @@
 }
 
 .SectionOne .container h1 {
+  font-size: 23px;
   text-align: center;
   font-family: var(--otherFont);
 }
@@ -122,20 +125,21 @@
   gap: 30px;
   padding: 30px;
   margin-top: 50px;
-  font-family: var(--fontFamily);
+  font-family: var(--otherFont);
 }
 
-.SectionOne .container .innerContain .contain:nth-child(1) {
-  width: 800px;
+.SectionOne .container .innerContain .contain {
+  width: 900px;
 }
 
-.SectionOne .container .innerContain .contain:nth-child(2) {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+.SectionOne .container .innerContain .contain p {
+  font-size: 13px;
 }
+
+.SectionOne .container .innerContain .contain .skills a{
+  margin-right: 10px;
+}
+
 
 /* SectionTwo */
 .SectionTwo {
@@ -173,7 +177,7 @@
   width: 100%;
 }
 
-.SectionTwo .container .catelogue h3,
+.SectionTwo .container .catelogue h5,
 .SectionTwo .container .catelogue p {
   padding: 10px 5px;
   font-family: var(--fontFamily);
@@ -186,6 +190,7 @@
 }
 
 .SectionThree h1 {
+  font-size: 17px;
   text-align: center;
   padding: 30px 0;
   font-family: var(--otherFont);
@@ -209,6 +214,7 @@
   border: none;
   padding: 10px;
   margin: 10px 0;
+  font-family: var(--otherFont);
 }
 
 .SectionThree form .btn {
@@ -246,16 +252,9 @@
 
 .Footer .icons a i {
   color: var(--primaryTextColor);
-  font-size: 30px;
+  font-size: 15px;
 }
 
-.Footer p {
-  margin-top: 10px;
-  font-size: 10px;
-  display: inline;
-  margin: 0 20px;
-  color: #fdc840;
-}
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 768px) {
@@ -335,13 +334,21 @@
     gap: 30px;
   }
 
+  .Hero .container .contain h5 {
+    font-size: 12px;
+  }
+
+  .Hero .container .buttons button {
+    font-size: 11px;
+  }
+
   /* SectionOne */
   .SectionOne {
     padding: 100px 20px;
   }
 
   .SectionOne .container h1 {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .SectionOne .container .innerContain {
@@ -350,29 +357,43 @@
     padding: 10px;
   }
 
-  .SectionOne .container .innerContain h2,
-  h3 {
-    font-size: 20px;
+  .SectionOne .container .innerContain .contain p {
+    font-size: 11px;
   }
 
-  .SectionOne .container .innerContain p {
-    font-size: 12px;
-  }
-
-  .SectionOne .container .innerContain .contain:nth-child(1) {
+  .SectionOne .container .innerContain .contain {
     width: auto;
     margin-bottom: 40px;
   }
 
-  .SectionOne .container .innerContain .contain:nth-child(2) {
-    gap: 40px;
+  /* sectionTwo */
+  .SectionTwo h1 {
+    font-size: 15px;
   }
+
+  .SectionTwo p {
+    font-size: 10px;
+  }
+
+  /* sectionThree */
+  .SectionThree h1 {
+    font-size: 15px;
+  }
+
+  .SectionThree label input, textarea {
+    font-size: 10px;
+  }
+
+  .SectionThree form .btn {
+    font-size: 12px;
+  }
+
 }
 
 @media screen and (max-width: 426px) {
   /* Hero */
   .Hero {
-    padding: 250px 20px;
+    padding: 200px 20px;
   }
 
   .Hero .container .contain {

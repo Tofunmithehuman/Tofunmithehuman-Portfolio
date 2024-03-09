@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="Footer">
       <footer>
-        <h4>Tofunmithehuman&copy; 2024 All rights reserved.</h4>
+        <h6>Tofunmithehuman&copy; 2024 All rights reserved.</h6>
         <div className="icons">
           <Link to="https://github.com/Tofunmithehuman" target="_blank">
             <i className="fa-brands fa-github"></i>
@@ -24,8 +24,6 @@ function Footer() {
             <i className="fa-brands fa-linkedin"></i>
           </Link>
         </div>
-        <p>tofunmibolaji13@gmail.com</p>
-        <p>+234 904-634-6648</p>
       </footer>
     </div>
   );

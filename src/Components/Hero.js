@@ -11,9 +11,11 @@ function Hero() {
     <div className="Hero" id="home">
       <div className="container">
         <div data-aos="fade-up" className="contain">
-          Hi, I am Bolaji Oluwatofunmi Ashraf.
-          <br />
-          I'm a Fullstack Javascript Developer (MERN)
+          <h5>
+            Hi, I am Bolaji Oluwatofunmi Ashraf.
+            <br />
+            I'm a Fullstack Javascript Developer (MERN)
+          </h5>
         </div>
         <div data-aos="fade-up" className="buttons">
           <Link
@@ -23,8 +25,8 @@ function Hero() {
             <button>Download CV</button>
           </Link>
           <ScrollLink to="projects" smooth={true} duration={500} offset={-70}>
-          <button>Latest Project</button>
-              </ScrollLink>
+            <button>Latest Project</button>
+          </ScrollLink>
         </div>
       </div>
     </div>
