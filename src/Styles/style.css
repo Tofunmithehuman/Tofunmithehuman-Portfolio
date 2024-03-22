@@ -61,7 +61,7 @@ body {
 
 /* About */
 .About {
-  margin-top: 150px;
+  margin-top: 250px;
 }
 .About #parent {
   padding: 48px;
@@ -90,7 +90,7 @@ body {
 
 .Services .container .contain {
   text-align: center;
-  padding: 0 20px;
+  padding: 0 5px;
   max-width: 300px;
 }
 .Services .container .contain a img {
@@ -118,6 +118,7 @@ body {
   background-color: #00000000;
   border-bottom: 3px solid #fff;
   text-align: right;
+  outline: none;
 }
 .Contact .container form input[type=number]::-webkit-inner-spin-button,
 .money input[type=number]::-webkit-outer-spin-button {
@@ -162,7 +163,7 @@ body {
 @media screen and (max-width: 768px) {
   /* Home */
   .Home #parent p {
-    font-size: 13px;
+    font-size: 10px;
   }
   .About .content {
     padding: 0;

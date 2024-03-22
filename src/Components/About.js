@@ -18,8 +18,9 @@ const About = () => {
             <br />
             <br />
             <p className="w-60">
-              I'm dedicated to creating efficient, user-friendly, and scalable
-              solutions that meet clients needs. Explore my{" "}
+              I specialize in building dynamic and responsive web applications
+              using the MERN Stack and i have a strong foundation in front-end
+              and back-end development. Explore my{" "}
               <Link
                 to="https://github.com/Tofunmithehuman?tab=repositories"
                 target="_blank"
@@ -35,8 +36,8 @@ const About = () => {
             </p>
             <h5>My languages and tools:</h5>
             <p style={{ maxWidth: "600px" }}>
-              HTML5  CSS3  JavaScript  Bootstrap  Tailwind-CSS  React  Redux  Node.js
-               Express.js  MONGODB  Mongoose  Git  Github
+              HTML5 CSS3 JavaScript Bootstrap Tailwind-CSS React Redux Node.js
+              Express.js MONGODB Mongoose Git Github
             </p>
             <br />
             <br />
