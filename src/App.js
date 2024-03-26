@@ -1,15 +1,20 @@
 import "./App.css";
-import { Route, Routes } from "react-router";
 import Home from "./Pages/Home";
+import Loading from "./Components/Loading";
+import React, { useState, useEffect } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </div>
-  );
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  return <div>{loading ? <Loading /> : <Home />}</div>;
 }
 
 export default App;
