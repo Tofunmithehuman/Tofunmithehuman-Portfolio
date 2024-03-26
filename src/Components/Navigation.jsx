@@ -7,10 +7,13 @@ import { Link as ScrollLink } from "react-scroll";
 
 function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);
+
   useAos();
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
   return (
     <div className="Navigation">
       <header data-aos="fade-down">

@@ -190,6 +190,9 @@ textarea {
   .Navigation header .container nav {
     display: none;
   }
+  .Navigation header .container i {
+    font-size: 20px;
+  }
   .Navigation header .container i,
   .dropdown {
     display: block;
@@ -262,6 +265,9 @@ textarea {
   }
   .Contact .container form {
     width: 90%;
+  }
+  .Contact .container form input, textarea {
+    box-shadow: 4px 4px var(--main-color);
   }
 }
 
