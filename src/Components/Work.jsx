@@ -20,9 +20,9 @@ function Work() {
             </Link>
           </div>
           <p>
-            An e-commerce platform utilizing React.js for
-            frontend, Express.js for backend, and MongoDB for database, ensuring
-            seamless experiences.
+            An e-commerce platform utilizing React.js for frontend, Express.js
+            for backend, and MongoDB for database, ensuring seamless
+            experiences.
           </p>
         </div>
         <div className="category" data-aos="fade-up">

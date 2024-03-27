@@ -8,14 +8,13 @@ import Work from "../Components/Work";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 
-
 function Home() {
   return (
     <div className="Home">
       <Navigation />
       <Hero />
-      <About id="about"/>
-      <Work id="work"/>
+      <About id="about" />
+      <Work id="work" />
       {/* <Skills /> */}
       <Contact id="contact" />
       <Footer />

@@ -4,11 +4,10 @@ import useAos from "./aos";
 import { Link } from "react-router-dom";
 
 function Contact() {
-
   const handleClick = (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
   };
-  
+
   useAos();
   return (
     <div className="Contact" id="contact">
@@ -17,9 +16,27 @@ function Contact() {
           <h3>
             Send a message <i className="fa-solid fa-envelope"></i>
           </h3>
-          <input name="name" type="text" placeholder="Full Name" onClick={handleClick} required/>
-          <input name="email" type="email" placeholder="Email" onClick={handleClick} required />
-          <input name="subject" type="text" placeholder="Subject" onClick={handleClick} required/>
+          <input
+            name="name"
+            type="text"
+            placeholder="Full Name"
+            onClick={handleClick}
+            required
+          />
+          <input
+            name="email"
+            type="email"
+            placeholder="Email"
+            onClick={handleClick}
+            required
+          />
+          <input
+            name="subject"
+            type="text"
+            placeholder="Subject"
+            onClick={handleClick}
+            required
+          />
           <textarea
             name="message"
             cols="30"

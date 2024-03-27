@@ -22,37 +22,74 @@ function Navigation() {
           <nav>
             <ul>
               <li>
-              <ScrollLink to="about" smooth={true} duration={500} offset={-30}>
-                ABOUT
-              </ScrollLink>
+                <ScrollLink
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  offset={-30}
+                >
+                  ABOUT
+                </ScrollLink>
               </li>
               <li>
-                <ScrollLink to="work" smooth={true} duration={500} offset={-30}>WORK</ScrollLink>
+                <ScrollLink to="work" smooth={true} duration={500} offset={-30}>
+                  WORK
+                </ScrollLink>
               </li>
               <li>
-                <ScrollLink to="/" smooth={true} duration={500} offset={-30}>SKILLS</ScrollLink>
+                <ScrollLink to="/" smooth={true} duration={500} offset={-30}>
+                  SKILLS
+                </ScrollLink>
               </li>
               <li>
-                <ScrollLink to="contact" smooth={true} duration={500} offset={-30}>CONTACT</ScrollLink>
+                <ScrollLink
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  offset={-30}
+                >
+                  CONTACT
+                </ScrollLink>
               </li>
             </ul>
           </nav>
 
-          <i className={`fa-solid ${menuOpen ? 'fa-times' : 'fa-bars'}`} onClick={toggleMenu}></i>
+          <i
+            className={`fa-solid ${menuOpen ? "fa-times" : "fa-bars"}`}
+            onClick={toggleMenu}
+          ></i>
 
-          <div className={`dropdown ${menuOpen ? 'open' : ''}`}>
+          <div className={`dropdown ${menuOpen ? "open" : ""}`}>
             <ul>
               <li>
-                <ScrollLink to="about" smooth={true} duration={500} offset={-30}>ABOUT</ScrollLink>
+                <ScrollLink
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  offset={-30}
+                >
+                  ABOUT
+                </ScrollLink>
               </li>
               <li>
-                <ScrollLink to="work" smooth={true} duration={500} offset={-30}>WORK</ScrollLink>
+                <ScrollLink to="work" smooth={true} duration={500} offset={-30}>
+                  WORK
+                </ScrollLink>
               </li>
               <li>
-                <ScrollLink to="/" smooth={true} duration={500} offset={-30}>SKILLS</ScrollLink>
+                <ScrollLink to="/" smooth={true} duration={500} offset={-30}>
+                  SKILLS
+                </ScrollLink>
               </li>
               <li>
-                <ScrollLink to="contact" smooth={true} duration={500} offset={-30}>CONTACT</ScrollLink>
+                <ScrollLink
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  offset={-30}
+                >
+                  CONTACT
+                </ScrollLink>
               </li>
             </ul>
 
