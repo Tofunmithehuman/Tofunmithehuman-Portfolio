@@ -17,6 +17,9 @@
   text-decoration: none;
   font-family: var(--primaryFont);
 }
+body {
+  font-size: 16px;
+}
 
 /* Header */
 .Navigation header {
@@ -176,6 +179,7 @@ textarea {
   -webkit-box-shadow: 4px 4px var(--main-color);
   -moz-box-shadow: 4px 4px var(--main-color);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
 }
 
 .Contact .container form input[type="number"]::-webkit-outer-spin-button,
