@@ -143,6 +143,21 @@ p {
   align-items: center;
 }
 
+/* Skills */
+.Skills {
+  background-color: black;
+  padding: 150px 20px 50px;
+  color: var(--tertiaryColor);
+}
+.Skills .container {
+  max-width: 1440px;
+  margin: auto;
+}
+.Skills .container h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 /* Contact */
 .Contact {
   padding: 100px 10px;

@@ -23,7 +23,7 @@ function Contact() {
     setSubmitting(true);
     try {
       const response = await fetch(
-        "https://tofunmithehuman-backend-production.up.railway.app/send-email",
+        "https://tofunmithehuman-backend.onrender.com/send-email",
         {
           method: "POST",
           headers: {
