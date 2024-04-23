@@ -15,7 +15,7 @@ function Home() {
       <Hero />
       <About id="about" />
       <Work id="work" />
-      <Skills  id="skills" />
+      <Skills id="skills" />
       <Contact id="contact" />
       <Footer />
     </div>

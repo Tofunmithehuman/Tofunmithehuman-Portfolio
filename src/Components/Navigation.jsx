@@ -82,7 +82,12 @@ function Navigation() {
                 </ScrollLink>
               </li>
               <li>
-                <ScrollLink to="skills" smooth={true} duration={500} offset={-30}>
+                <ScrollLink
+                  to="skills"
+                  smooth={true}
+                  duration={500}
+                  offset={-30}
+                >
                   SKILLS
                 </ScrollLink>
               </li>

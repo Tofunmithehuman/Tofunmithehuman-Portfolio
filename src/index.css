@@ -5,29 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    background-image: repeating-linear-gradient(
-        135deg,
-        rgb(237, 235, 250) 0px,
-        rgb(237, 235, 250) 10px,
-        transparent 10px,
-        transparent 11px
-      ),
-      repeating-linear-gradient(
-        22.5deg,
-        rgb(237, 235, 250) 0px,
-        rgb(237, 235, 250) 10px,
-        transparent 10px,
-        transparent 11px
-      ),
-      linear-gradient(
-        90deg,
-        hsl(194, 74%, 56%),
-        hsl(266, 74%, 56%),
-        hsl(338, 74%, 56%),
-        hsl(50, 74%, 56%),
-        hsl(122, 74%, 56%)
-      );
-  }
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgb(237, 235, 250) 0px,
+      rgb(237, 235, 250) 10px,
+      transparent 10px,
+      transparent 11px
+    ),
+    repeating-linear-gradient(
+      22.5deg,
+      rgb(237, 235, 250) 0px,
+      rgb(237, 235, 250) 10px,
+      transparent 10px,
+      transparent 11px
+    ),
+    linear-gradient(
+      90deg,
+      hsl(194, 74%, 56%),
+      hsl(266, 74%, 56%),
+      hsl(338, 74%, 56%),
+      hsl(50, 74%, 56%),
+      hsl(122, 74%, 56%)
+    );
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

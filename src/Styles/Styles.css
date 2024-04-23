@@ -146,7 +146,7 @@ p {
 /* Skills */
 .Skills {
   background-color: black;
-  padding: 150px 20px 50px;
+  padding: 200px 20px 100px;
   color: var(--tertiaryColor);
 }
 .Skills .container {

@@ -3,7 +3,6 @@ import "../Styles/Styles.css";
 import useAos from "./aos";
 import { Link } from "react-router-dom";
 import luravpn from "../Media/luravpn.jpeg";
-import sarvee from "../Media/sarvee.jpeg";
 import teensvoice from "../Media/teensvoice.jpeg";
 
 function Work() {
@@ -11,20 +10,6 @@ function Work() {
   return (
     <div className="Work" id="work">
       <div className="container">
-        <div className="category" data-aos="fade-up">
-          <img src={sarvee} alt="categoryImg" />
-          <div className="title">
-            <h3>Sarvee</h3>
-            <Link to="https://sarvee.vercel.app" target="_blank">
-              View work <i className="fa-solid fa-link"></i>
-            </Link>
-          </div>
-          <p>
-            An e-commerce platform utilizing React.js for frontend, Express.js
-            for backend, and MongoDB for database, ensuring seamless
-            experiences.
-          </p>
-        </div>
         <div className="category" data-aos="fade-up">
           <img src={luravpn} alt="categoryImg" />
           <div className="title">
