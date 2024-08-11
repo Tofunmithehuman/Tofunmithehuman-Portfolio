@@ -146,7 +146,7 @@ p {
 /* Skills */
 .Skills {
   background-color: black;
-  padding: 200px 20px 100px;
+  padding: 80px 20px 60px;
   color: var(--tertiaryColor);
 }
 .Skills .container {
@@ -345,6 +345,15 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 
   .Contact .container form {
+    width: 100%;
+  }
+  .Work .container {
+    padding: 20pxgit;
+  }
+  .Work .container .category  {
+    width: 100%;
+  }
+  .Work .container .category img {
     width: 100%;
   }
 }

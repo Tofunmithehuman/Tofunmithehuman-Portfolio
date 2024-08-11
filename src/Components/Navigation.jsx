@@ -10,9 +10,9 @@ function Navigation() {
 
   useAos();
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+    const toggleMenu = () => {
+      setMenuOpen(!menuOpen);
+    };
 
   return (
     <div className="Navigation">
@@ -115,9 +115,6 @@ function Navigation() {
               </Link>
               <Link to="https://wa.me/message/UGCFR27RZ5IHN1" target="_blank">
                 <i className="fa-brands fa-whatsapp"></i>
-              </Link>
-              <Link to="https://twitter.com/tofunmithehuman" target="_blank">
-                <i className="fa-brands fa-twitter"></i>
               </Link>
               <Link
                 to="https://www.instagram.com/tofunmithehuman/"

@@ -15,9 +15,6 @@ function Footer() {
         <Link to="https://wa.me/message/UGCFR27RZ5IHN1" target="_blank">
           <i className="fa-brands fa-whatsapp"></i>
         </Link>
-        <Link to="https://twitter.com/tofunmithehuman" target="_blank">
-          <i className="fa-brands fa-twitter"></i>
-        </Link>
         <Link to="https://www.instagram.com/tofunmithehuman/" target="_blank">
           <i className="fa-brands fa-instagram"></i>
         </Link>
